@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GT">
+      <UniqueIdentifier>{feafe086-a9c9-47c3-af7b-278d1979dc15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GT\Anim Related">
+      <UniqueIdentifier>{190508cc-cf45-4d52-86ba-7b1be8de3569}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GT\Game Logic">
+      <UniqueIdentifier>{542f7fd2-cc4d-4e14-8269-a7c7a6a0c514}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GT\Music">
+      <UniqueIdentifier>{a0149e1c-0312-4ddc-8b9a-2c3c72489a5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MK">
+      <UniqueIdentifier>{49aa0ff7-e74e-4931-8841-521d1cb030b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MK\Common">
+      <UniqueIdentifier>{d05163d5-afd5-4216-837b-8f49e1aa9a03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MK\Graphics">
+      <UniqueIdentifier>{f0e864d1-85f1-4bde-851b-079a19b5107b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MK\Input">
+      <UniqueIdentifier>{b474b1f8-1f97-4948-9b5f-8b89f68872e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MK\SceneManagement">
+      <UniqueIdentifier>{9558db89-37f4-4a37-92a5-c98dcda39dd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{f23fef16-3d07-4a13-8580-ef6a4a0a312f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes">
+      <UniqueIdentifier>{df63c948-355f-4abb-b446-986c0fad5047}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GT\AnimationHandlerNode.cpp">
+      <Filter>GT\Anim Related</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GT\AnimTransAct.cpp">
+      <Filter>GT\Anim Related</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GT\CharacterStatNode.cpp">
+      <Filter>GT\Game Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GT\ObstacleNode.cpp">
+      <Filter>GT\Game Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GT\SimperMusicSys.cpp">
+      <Filter>GT\Music</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MK\Graphics\MKSprite.cpp">
+      <Filter>MK\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MK\Input\MKInputDefinition.cpp">
+      <Filter>MK\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MK\Input\MKInputManager.cpp">
+      <Filter>MK\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MK\Input\MKKeyboardHandler.cpp">
+      <Filter>MK\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MK\Input\MKTouchHandler.cpp">
+      <Filter>MK\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MK\SceneManagement\MKSceneManager.cpp">
+      <Filter>MK\SceneManagement</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GT\SH_TestScene.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scenes\GameScene.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scenes\HelloWorldScene.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scenes\MenuScene.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scenes\Terry_TestScene.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GT\AnimationHandlerNode.h">
+      <Filter>GT\Anim Related</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GT\AnimTransAct.h">
+      <Filter>GT\Anim Related</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GT\CharacterStatNode.h">
+      <Filter>GT\Game Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GT\ObstacleNode.h">
+      <Filter>GT\Game Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GT\SimperMusicSys.h">
+      <Filter>GT\Music</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MK\Common\MKAssertions.h">
+      <Filter>MK\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MK\Common\MKMacros.h">
+      <Filter>MK\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MK\Common\MKMathsHelper.h">
+      <Filter>MK\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MK\Common\MKPasskey.h">
+      <Filter>MK\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MK\Common\MKSingletonTemplate.h">
+      <Filter>MK\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MK\Graphics\MKSprite.h">
+      <Filter>MK\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MK\Input\MKInput.h">
+      <Filter>MK\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MK\Input\MKInputContext.h">
+      <Filter>MK\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MK\Input\MKInputControllerIndex.h">
+      <Filter>MK\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MK\Input\MKInputDefinition.h">
+      <Filter>MK\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MK\Input\MKInputManager.h">
+      <Filter>MK\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MK\Input\MKInputName.h">
+      <Filter>MK\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MK\Input\MKKeyboardHandler.h">
+      <Filter>MK\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MK\Input\MKTouchHandler.h">
+      <Filter>MK\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MK\SceneManagement\MKScene.h">
+      <Filter>MK\SceneManagement</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MK\SceneManagement\MKSceneMacros.h">
+      <Filter>MK\SceneManagement</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MK\SceneManagement\MKSceneManager.h">
+      <Filter>MK\SceneManagement</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GT\SH_TestScene.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scenes\AvailableScenes.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scenes\GameScene.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scenes\HelloWorldScene.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scenes\MenuScene.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scenes\Terry_TestScene.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UIClass\UICreator.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

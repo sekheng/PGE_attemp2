@@ -1,0 +1,17 @@
+{  
+   "master_vol":1.0,
+   "audiodata_arr":[  
+      {  
+         "location":"PlaceHolder/testbgm.mp3",
+		 "NameID":"testbgm",
+		 "volume":0.5,
+		 "loop":true
+      },
+	  {  
+         "location":"PlaceHolder/earthquake.mp3",
+		 "NameID":"testEQ",
+		 "volume":1,
+		 "loop":false
+      }
+   ]
+}
