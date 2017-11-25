@@ -55,6 +55,23 @@ static __TYPE__* create() \
     } \
 }
 
+#define CREATE_FUNC_WITH_PHYSIC(__TYPE__) \
+static __TYPE__* createWithPhysics() \
+{ \
+    __TYPE__ *pRet = new(std::nothrow) __TYPE__(); \
+    if (pRet && pRet->initWithPhysics()) \
+    { \
+        pRet->autorelease(); \
+        return pRet; \
+    } \
+    else \
+    { \
+        delete pRet; \
+        pRet = nullptr; \
+        return nullptr; \
+    } \
+}
+
 /** @def NODE_FUNC(__TYPE__)
  * Define a node function for a specific type, such as Layer.
  *
